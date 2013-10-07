@@ -1,22 +1,24 @@
-pinax-project-symposion
-=====================
+Python Ecuador Website
+======================
 
-a starter project demonstarting a minimal symposion instance
+Comunidad Python del Ecuador
 
 
-Usage:
-
-    django-admin.py startproject --extension=py,json --template=https://github.com/pinax/pinax-project-symposion/zipball/master <project_name>
-
-Getting Started:
+Uso:
 
     pip install virtualenv
-    virtualenv mysiteenv
-    source mysiteenv/bin/activate
+    virtualenv pyecenv
+    source pyecenv/bin/activate
     pip install Django==1.4.5
-    django-admin.py startproject --extension=py,json --template=https://github.com/pinax/pinax-project-symposion/zipball/master mysite
-    cd mysite
+    git clone https://github.com/PythonEcuador/python.ec.git pyec
+    cd pyec
     pip install -r requirements.txt
     python manage.py syncdb
     python manage.py loaddata fixtures/*
     python manage.py runserver
+
+
+Desarrolladores:
+    
+    Dairon Medina <daironm@kruger.com.ec>
+    Cristian Salamea 
